@@ -1,0 +1,24 @@
+body
+{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6940b4da;
+}
+
+.titulo{
+    font-family: "Snake Game", 'Times New Roman', Times, serif;
+    color: yellow;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #0248ca;
+    border-radius: 20px;
+}
+
+@font-face {
+    font-family: "Snake Game";
+    src: url("joystixmonospace.ttf") format("truetype");
+  }
